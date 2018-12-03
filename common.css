@@ -288,3 +288,15 @@ input[type='checkbox']:checked + .switch {
 .v-middle {
   vertical-align: middle;
 }
+/**
+ * overflow
+ */
+.o-hidden {
+  overflow: hidden;
+}
+.ox-hidden {
+  overflow-x: hidden;
+}
+.oy-hidden {
+  overflow-y: hidden;
+}
