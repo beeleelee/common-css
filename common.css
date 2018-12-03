@@ -13,3 +13,12 @@ html {
 .content-box {
   box-sizing: content-box;
 }
+/**
+ *  clearfix
+ *  source from https://30-seconds.github.io/30-seconds-of-css/
+ */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
