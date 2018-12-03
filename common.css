@@ -229,3 +229,10 @@ input[type='checkbox']:checked + .switch {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/**
+ * text break
+ */
+.break{
+  word-break: break-all;
+  word-wrap: break-word;
+}
