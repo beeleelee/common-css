@@ -253,8 +253,20 @@ input[type='checkbox']:checked + .switch {
   max-width: 100%;
 }
 .no-display {
-  display: none;
+  display: none !important;
 }
 .hide {
-  opacity: 0;
+  opacity: 0 !important;
+}
+/**
+ *  position
+ */
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute
 }
