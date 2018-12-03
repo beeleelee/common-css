@@ -270,3 +270,9 @@ input[type='checkbox']:checked + .switch {
 .absolute {
   position: absolute
 }
+/**
+ * font 
+ */
+.bold {
+  font-weight: bold;
+}
