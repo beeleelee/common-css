@@ -236,3 +236,25 @@ input[type='checkbox']:checked + .switch {
   word-break: break-all;
   word-wrap: break-word;
 }
+/**
+ * no next line 
+ */
+.no-wrap {
+  white-space: nowrap;
+}
+/**
+ * display
+ */
+.dib {
+  display: inline-block;
+}
+.block-image {
+  display: block;
+  max-width: 100%;
+}
+.no-display {
+  display: none;
+}
+.hide {
+  opacity: 0;
+}
