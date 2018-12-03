@@ -1,0 +1,15 @@
+/**
+ *  box-sizing reset
+ *  source from https://30-seconds.github.io/30-seconds-of-css/
+ */
+html {
+  box-sizing: border-box;
+}
+*, 
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.content-box {
+  box-sizing: content-box;
+}
