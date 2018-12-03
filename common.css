@@ -67,8 +67,12 @@ html {
 }
 /**
  * System font stack 
+ * source from https://30-seconds.github.io/30-seconds-of-css/
  */
-
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
+    Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 /**
  *  clearfix
  *  source from https://30-seconds.github.io/30-seconds-of-css/
