@@ -276,3 +276,15 @@ input[type='checkbox']:checked + .switch {
 .bold {
   font-weight: bold;
 }
+/**
+ * text 
+ */
+.t-center {
+  text-align: center;
+}
+.t-right {
+  text-align: right;
+}
+.v-middle {
+  vertical-align: middle;
+}
