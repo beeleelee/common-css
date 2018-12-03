@@ -1,5 +1,5 @@
 {
-  "name": "common-css",
+  "name": "@beeleelee/common-css",
   "version": "1.0.0",
   "description": "styles in common usage",
   "main": "common.css",
