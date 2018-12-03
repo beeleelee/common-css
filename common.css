@@ -22,3 +22,10 @@ html {
   display: block;
   clear: both;
 }
+/**
+ *  unselectable
+ *  source from https://30-seconds.github.io/30-seconds-of-css/
+ */
+ .unselectable {
+   user-select: none;
+ }
