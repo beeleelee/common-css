@@ -1,6 +1,6 @@
 {
   "name": "@beeleelee/common-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "styles in common usage",
   "main": "common.css",
   "scripts": {
