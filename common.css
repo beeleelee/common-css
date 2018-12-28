@@ -300,3 +300,12 @@ input[type='checkbox']:checked + .switch {
 .oy-hidden {
   overflow-y: hidden;
 }
+/**
+  * float
+  */
+.float {
+  float: left;
+}
+.float-right {
+  float: right;
+}
