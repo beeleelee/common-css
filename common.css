@@ -309,3 +309,9 @@ input[type='checkbox']:checked + .switch {
 .float-right {
   float: right;
 }
+
+.error {
+  color: #ff0000;
+  font-size: 12px;
+  padding-top: 5px;
+}
