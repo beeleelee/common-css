@@ -315,3 +315,8 @@ input[type='checkbox']:checked + .switch {
   font-size: 12px;
   padding-top: 5px;
 }
+
+.disabled {
+  cursor: not-allowed;
+  user-select: none; 
+}
