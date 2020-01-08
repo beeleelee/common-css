@@ -320,3 +320,30 @@ input[type='checkbox']:checked + .switch {
   cursor: not-allowed;
   user-select: none; 
 }
+
+.hr1px {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+}
+.vr1px {
+  height: 100%;
+  background-color: #ddd;
+  width: 1px;
+}
+@media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .hr1px {
+    transform: scaleY(0.5);
+  }
+  .vr1px {
+    transform: scaleX(0.5);
+  }
+}
+@media (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  .hr1px {
+    transform: scaleY(0.5);
+  }
+  .vr1px {
+    transform: scaleX(0.5);
+  }
+}
